@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.navbar {
+    width: 80%;
+    height: 80px;
+    margin: 25px auto;
+}
+
+.logo {
+    width: 20%;
+    float: left;
+}
+
+.menu {
+    width: 60%;
+    float: left;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.search-box {
+    width: fit-content;
+    float: left;
+    margin-top: 15px;
+    border-bottom: 1px solid #2c97e4;
+}
+
+.logo img {
+    width: 70%;
+    /*150px*/
+}
+
+.menu ul li {
+    display: inline;
+    margin: 0px 20px;
+    cursor: pointer;
+    padding-top: 5px;
+}
+
+.active,
+.menu ul li input:hover {
+    border-top: 2px solid #2c97e4;
+}
+
+
+
+
+.search-box input {
+    border: 0;
+    outline: 0;
+    padding: 5px;
+}
+
+.search-box .fa-search {
+    color: #2c97e4;
+}
+
+i {
+    cursor: pointer;
+}
+
+.content {
+    width: 80%;
+    margin: 100px auto;
+}
+
+.text {
+    width: 50%;
+    float: left;
+}
+
+.image {
+    width: 50%;
+    float: right;
+}
+
+.text h1 {
+    margin-left: 70px;
+    line-height: 40px;
+}
+
+.text p {
+    margin-left: 70px;
+    margin-top: 50px;
+    line-height: 25px;
+}
+
+.text div {
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+.text div img {
+    width: 50px;
+    border-radius: 50%;
+    /*top-left top-right bottom-right bottum-left*/
+    vertical-align: middle;
+    margin-right: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 15px 2px rgba(44, 151, 228, 0.5);
+}
+
+.image img {
+    width: 100%;
+}
